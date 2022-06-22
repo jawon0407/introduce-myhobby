@@ -1,23 +1,26 @@
-<!DOCTYPE html>
+<!DOCTYPE html class="w-full h-full">
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="style.css" />
-    <title>WON WIN</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>C.J's Place</title>
   </head>
-  <body>
-    <header>
-      <h1>나의 취미를 소개합니다!</h1>
-      <nav>
+  <body class="font-sans w-screen h-screen_2xl flex flex-col bg-cover">
+    <header
+      class="w-screen flex justify-evenly items-center top-0 bg-zinc-800 text-white px-20 z-10 font-mono opacity-90 hover:shadow-xl shadow-gray-900 transition-shadow"
+    >
+      <h1 class="text-5xl py-6 font-bold">
+        <a href="index.html">H.H</a>
+      </h1>
+      <nav class="list-none flex items-center space-x-4">
         <li>
           <a href="game.html">게임</a>
         </li>
-        <li>
+        <li class="relative">
           <a href="cartoon.html">소설 & 만화 & 애니</a>
-          <ul class="hidden">
+          <ul class="space-y-4 hidden absolute">
             <li>
               <a href="novel.html">소설</a>
             </li>
@@ -36,17 +39,89 @@
           <a href="climbing.html">등산</a>
         </li>
         <li>
-          <a href="youtube.html">유튜브 시청</a>
+          <a href="youtube.html">유튜브</a>
         </li>
       </nav>
     </header>
+    <section class="h-2/5 my-40">
+      <div class="flex w-full justify-center items-center">
+        <div>
+          <h1 class="text-center text-5xl w-1/2">C.J's HOBBY HOUSE</h1>
+        </div>
+        <div>
+          <img
+            src="https://us.123rf.com/450wm/pking4th/pking4th1502/pking4th150200148/36353484-%EC%B7%A8%EB%AF%B8-%EC%95%84%EC%9D%B4%EC%BD%98.jpg?ver=6"
+            alt="hobby_icon_img"
+          />
+        </div>
+      </div>
+    </section>
     <main>
-      <div class="game_container">
-        <div class="game_grid">
+      <section>
+        <div>
+          <div class="child_flex">
+            <div>
+              <div>
+                <img src="" alt="">
+              </div>
+              <div>
+                <span></span>
+              </div>
+            </div>
+            <div>
+            <div>
+              <div>
+                <img src="" alt="">
+              </div>
+              <div>
+                <span></span>
+              </div>
+            </div>
+            </div>
+            <div>
+            <div>
+              <div>
+                <img src="" alt="">
+              </div>
+              <div>
+                <span></span>
+              </div>
+            </div>
+            </div>
+            <div>
+              <div>
+                <img src="" alt="">
+              </div>
+              <div>
+                <span></span>
+              </div>
+            </div>
+            <div>
+              <div>
+                <img src="" alt="">
+              </div>
+              <div>
+                <span></span>
+              </div>
+            </div>
+        </div>
+      </section>
+    </main>
+    <!--
+    <main
+      class="img-full w-full translate h-screen_2xl flex flex-col items-center flex-wh space-y-20 box_shadow"
+    >
+      <div>
+        <div class="grid_container">
           <div>
             <img
               src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhP1HbBXPTu96kKK64UZ3ctZdNj22WmeA2goMEaCgl3haT1HeTa7LCMLH5q7aZNbT7iJ7KJrOrsJb4xBGjiOT3bsQJJD-N0XL41P9RdOO_ya2dmqDz08Z7z2aj0mVN_00XlVgk2voWabtHkBrfGP_bLMfAGpuuyTHQEM0Z_-insO3qTEqhGC0YXz4ah_w/s720/batch_Splash1.webp"
               alt="Lost Ark"
+            />
+            <img
+              src="https://2.bp.blogspot.com/-zykzx3otqOM/XFOIUUo1WlI/AAAAAAAADbA/Rg5tM-_W2mE2C_R0RCCvmyvelFM4w-pqgCLcBGAs/s1600/14.gif"
+              alt="Lost Ark"
+              class="image_change"
             />
           </div>
           <div>
@@ -54,11 +129,21 @@
               src="https://downloadwap.com/thumbs2/wallpapers/p2ls/2019/anime/26/6caf86f013285737.jpg"
               alt="League of Legend"
             />
+            <img
+              src="http://file3.instiz.net/data/file3/2020/03/12/b/b/5/bb5026d86a978d1a21d372e550a0871d.gif"
+              alt="Faker's shockwave"
+              class="image_change"
+            />
           </div>
           <div>
             <img
               src="https://i.ytimg.com/vi/sayzAjrOvEs/maxresdefault.jpg"
               alt="DJ MAX RESPECT V"
+            />
+            <img
+              src="https://mblogthumb-phinf.pstatic.net/MjAyMTA2MzBfMjE1/MDAxNjI0OTg0NzcxODc5.2PJGzKO9V9DDwe0G3tH_LuDishg6cDa-inYI7oVvsagg.IurvLujs5zSUDVfJhA-czCZFcyijcTWYn-NJss6OtpAg.GIF.saehongburn4/djmax_blog001.gif?type=w800"
+              alt="DJ MAX RESPECT V"
+              class="image_change"
             />
           </div>
           <div>
@@ -66,23 +151,33 @@
               src="https://cdn.dlcompare.com/game_tetiere/upload/gameimage/file/6707.jpeg"
               alt="Don't Starve"
             />
+            <img
+              src="https://mblogthumb-phinf.pstatic.net/MjAyMDAyMTVfMTk2/MDAxNTgxNjk5OTczNzE4.gF0fSw6kkzOvG34C0ltKefmxZy3lgxpaBk7hxGmPJnIg.FyAi6HSzlynDWs_z2yG1bBgGYqw6ONFKeeIFxUayCP8g.GIF.plaming123/%EC%9D%8C%EC%8B%9D%EB%A7%8C%EB%93%A4%EA%B8%B0.gif?type=w800"
+              alt="Don't Starve"
+              class="image_change"
+            />
           </div>
         </div>
-        <div class="gametextbox">
+        <div class="w-2/5 bg-stone-200">
           <h3>게임</h3>
           <h5>@</h5>
         </div>
       </div>
-      <div class="cartoon_container">
-        <div class="cartoontextbox">
+      <div>
+        <div class="w-2/5 bg-cyan-200">
           <h3>소설 & 만화 & 애니</h3>
           <h5>@</h5>
         </div>
-        <div class="cartoon_grid">
+        <div class="grid_container">
           <div>
             <img
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn_buNhQ2w156SZmFMX7r_LEA4dH99VePDDofjlTkNpxcER2iog8I5CtQjzjuBxd0qP1Q&usqp=CAU"
               alt="원피스"
+            />
+            <img
+              src="https://cdn.mhns.co.kr/news/thumbnail/201905/209915_311713_5353_v150.jpg"
+              alt="원피스"
+              class="image_change"
             />
           </div>
           <div>
@@ -90,11 +185,21 @@
               src="https://an2-img.amz.wtchn.net/image/v2/qjQcwtKWjGWhNP3SZEeaxg.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5EY3dlREkyTkhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk16RTROVFEzTlRFMk5EVTVNRFE0TWpRaWZRLm5HOUpIUGdpZTVyTU5EOS1lV0NsZTNOVXpJZXR6TWo1S3BDS2JtYUxsVnM"
               alt="귀멸의 칼날"
             />
+            <img
+              src="https://i.pinimg.com/originals/55/14/bd/5514bd617774c0bf78a2ba0f2e7bdf75.jpg"
+              alt="귀멸의 칼날"
+              class="image_change"
+            />
           </div>
           <div>
             <img
               src="https://img.insight.co.kr/static/2022/04/10/700/img_20220410142526_ea74gnrv.webp"
-              alt="스파이 패밀리"
+              alt="Spy X Family"
+            />
+            <img
+              src="https://mblogthumb-phinf.pstatic.net/MjAxOTA2MjlfMTM2/MDAxNTYxNzM1NTcwOTU5.LLOQStDba8u62pzAGlFbX9EGqK4hSDnX1AdoZOIdytog.5QUOH1lOSoBWCbZi9aa33p-pLFWxvi4_KNvsV0_54vgg.JPEG.vnd3697/1553445850253.jpg?type=w800"
+              alt="Spy X Family"
+              class="image_change"
             />
           </div>
           <div>
@@ -102,11 +207,16 @@
               src="https://i.pinimg.com/736x/42/25/ef/4225efe17ae99768de08782ff4bf7d9f.jpg"
               alt="의원, 다시 살다"
             />
+            <img
+              src="https://pbs.twimg.com/media/Er_dD9cXUAAR7qc.jpg"
+              alt="의원, 다시 살다"
+              class="image_change"
+            />
           </div>
         </div>
       </div>
-      <div class="badmintion_container">
-        <div class="badminton_grid">
+      <div>
+        <div class="grid_container">
           <div>
             <img
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsnjMPsZatPn76ygAGCtKLFhTZje4ltqe3Xv3nrI83h0smnz8JsFqd60ISdr_89pb0DVE&usqp=CAU"
@@ -132,17 +242,17 @@
             />
           </div>
         </div>
-        <div class="badmintontextbox">
+        <div class="w-2/5 bg-orange-200">
           <h3>배드민턴</h3>
           <h5>@</h5>
         </div>
       </div>
-      <div class="climb-container">
-        <div class="climbtextbox">
+      <div>
+        <div class="w-2/5 bg-lime-200">
           <h3>등산</h3>
           <h5>@</h5>
         </div>
-        <div class="climb_grid">
+        <div class="grid_container">
           <div>
             <img
               src="https://cdn.mhns.co.kr/news/photo/202011/420732_549374_3013.jpg"
@@ -155,7 +265,7 @@
               alt="정상"
             />
           </div>
-          <div>
+          <div class="row-span-full">
             <img
               src="https://cdn.mkhealth.co.kr/news/photo/202011/51182_51439_3036.jpg"
               alt="맛집"
@@ -163,8 +273,8 @@
           </div>
         </div>
       </div>
-      <div class="youtube_container">
-        <div class="youtube_grid">
+      <div>
+        <div class="grid_container">
           <div>
             <img
               src="https://blog.kakaocdn.net/dn/c2yJ7I/btqwXeUM6jI/a3WrMGPo9vakaDzQWepkOK/img.jpg"
@@ -195,7 +305,6 @@
           </div>
           <div>
             <iframe
-              <iframe
               width="100%"
               height="100%"
               src="https://www.youtube.com/embed/FL1lUyZN4jE"
@@ -206,12 +315,41 @@
             ></iframe>
           </div>
         </div>
-        <div class="youtubetextbox">
+        <div class="w-2/5 bg-red-600">
           <h3>유튜브 시청</h3>
           <h5>@</h5>
         </div>
       </div>
     </main>
-    <script src=""></script>
+  -->
+    <aside class="sticky w-1/15 shadow-md shadow-gray-400 border-2 rounded-lg">
+      <div class="p-2 text-center space-y-1 border-one">
+        <div>
+          <a href="game.html"> 게임</a>
+        </div>
+        <div>
+          <a href="novel.html"> 소셜</a>
+        </div>
+        <div>
+          <a href="cartoon.html"> 만화</a>
+        </div>
+        <div>
+          <a href="animation.html"> 애니</a>
+        </div>
+        <div>
+          <a href="badminton.html"> 배드민턴</a>
+        </div>
+        <div>
+          <a href="climb.html"> 등산</a>
+        </div>
+        <div>
+          <a href="youtube.html"> 유튜브</a>
+        </div>
+      </div>
+    </aside>
+    <script
+      src="https://kit.fontawesome.com/bff332bdcf.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
